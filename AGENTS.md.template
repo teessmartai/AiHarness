@@ -1,0 +1,172 @@
+# AGENTS.md
+
+> This file provides context and guidelines for AI agents working on this codebase.
+> **AI agents should update this file** as the project evolves.
+
+## Project Overview
+
+<!--
+AI: Replace this section with a concise description of what this project does.
+If this is a new project, describe the intended purpose and goals.
+-->
+
+**Status**: New project / Active development / Maintenance mode
+**Primary Language**: Not yet determined
+**Framework(s)**: None yet
+
+## Quick Start
+
+```bash
+# Setup (update these commands as the project develops)
+# npm install / pip install -r requirements.txt / cargo build / etc.
+
+# Run
+# npm start / python main.py / cargo run / etc.
+
+# Test
+# npm test / pytest / cargo test / etc.
+
+# Lint/Format
+# npm run lint / ruff check . / cargo fmt / etc.
+```
+
+## Project Structure
+
+<!--
+AI: Update this section as files and directories are created.
+Keep it current - this is one of the most valuable sections for orientation.
+-->
+
+```
+.
+├── AGENTS.md           # This file - AI agent guidelines
+└── (project files will be documented here as they're created)
+```
+
+## Development Guidelines
+
+### Code Style
+
+<!-- AI: Document the code style as patterns emerge or are decided -->
+
+- Follow language-specific conventions (PEP 8, StandardJS, rustfmt, etc.)
+- Prefer clarity over cleverness
+- Keep functions small and focused
+- Write self-documenting code; add comments only for "why", not "what"
+
+### Architecture Decisions
+
+<!--
+AI: Document significant architectural decisions here using this format.
+This section is critical for maintaining consistency across sessions.
+-->
+
+| Decision | Rationale | Date |
+|----------|-----------|------|
+| (none yet) | | |
+
+### Patterns to Follow
+
+<!-- AI: Add patterns that should be replicated throughout the codebase -->
+
+- (Document patterns as they emerge)
+
+### Patterns to Avoid
+
+<!-- AI: Add anti-patterns discovered or decided against -->
+
+- Avoid over-engineering; implement what's needed now
+- Don't add dependencies without clear justification
+
+## Testing Strategy
+
+<!-- AI: Update as testing infrastructure is established -->
+
+**Test Framework**: Not yet selected
+**Coverage Target**: (Recommended: 80% for critical paths)
+
+```bash
+# Run all tests
+# (command here)
+
+# Run specific test
+# (command here)
+```
+
+## Common Tasks
+
+<!-- AI: Add frequently performed tasks with exact commands -->
+
+### Adding a New Feature
+1. (Document the workflow as it develops)
+
+### Fixing a Bug
+1. (Document the workflow as it develops)
+
+### Deploying
+1. (Document when deployment is set up)
+
+## Environment & Configuration
+
+<!-- AI: Document environment variables, config files, and setup requirements -->
+
+| Variable | Purpose | Required | Default |
+|----------|---------|----------|---------|
+| (none yet) | | | |
+
+## Dependencies
+
+<!-- AI: Note key dependencies and why they were chosen -->
+
+### Runtime Dependencies
+- (none yet)
+
+### Development Dependencies
+- (none yet)
+
+## Known Issues & Technical Debt
+
+<!-- AI: Track known issues, workarounds, and planned improvements -->
+
+- (none yet)
+
+## Integration Points
+
+<!-- AI: Document APIs, databases, external services, etc. -->
+
+- (none yet)
+
+---
+
+## Meta: Maintaining This File
+
+**AI agents working on this codebase should:**
+
+1. **Read this file first** when starting work on the project
+2. **Update this file** when:
+   - Adding new directories or significant files → Update Project Structure
+   - Making architectural decisions → Add to Architecture Decisions
+   - Establishing patterns → Document in Patterns to Follow
+   - Adding dependencies → Document in Dependencies with rationale
+   - Adding environment variables → Update Environment & Configuration
+   - Creating new workflows → Add to Common Tasks
+3. **Keep commands current** - If build/test/run commands change, update Quick Start
+4. **Remove outdated information** - Don't let this file become stale
+
+### For New/Empty Projects
+
+If you're the first agent working on this project:
+1. Clarify the project's purpose with the user
+2. Propose a technology stack appropriate for the goals
+3. Set up the basic project structure
+4. Update this file with initial decisions
+5. Establish testing from the start
+
+### For Existing Projects
+
+If this file was just added to an existing project:
+1. Explore the codebase structure
+2. Identify the tech stack, frameworks, and patterns in use
+3. Find and document build/test/run commands
+4. Update all sections based on what exists
+5. Note any inconsistencies or technical debt discovered
